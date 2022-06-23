@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="scroll">
+    <header class="main-header">
+        <!-- area de la izquierda -->
+        <div class="start place-center">
+            <button class="action-button icon-menu"></button>
+            <img class="logo" src="img/logo.svg" alt="Logo-youtube">
+        </div>
+        <!-- area del centro -->
+        <div class="middle place-center">
+            <form class="form-search place-center" action="#">
+                <input class="input" type="search" placeholder="Buscar">
+                <button data-tooltip="Buscar" class="submit icon-search"></button>
+            </form>
+            <button data-tooltip="Haz búsqueda por voz" class="action-button icon-microphone"></button>
+        </div>
+        <!-- area de la derecha -->
+        <div class="place-center buttons-container">
+            <button data-tooltip="Notificaciones" class="action-button icon-bell"></button>
+            <button data-tooltip="Aplicaciones de Youtube" class="action-button icon-grid"></button>
+            <button data-tooltip="Crear" class="action-button icon-camera"></button>
+
+            <div class="user">
+            <div class="user-avatar">
+                <img class="user-img" src="https://lh3.googleusercontent.com/ogw/ADea4I67gxOxyKluzfJ9TN1602l_T9MSBo1tL9ZguhcJWQ=s32-c-mo" alt="foto-perfil">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- zona de navegacion -->
+    <div class="main-sidebar scroll">
+        <nav class="main-nav">
+            <ul>
+
+                <li>
+                    <a class="link is-active" href="#">
+                        <span class="icon icon-home "></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-explore"></span>
+                        <span>Explorar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-suscriptions"></span>
+                        <span>Sucripciones</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-yt-logo"></span>
+                        <span>Originals</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-music"></span>
+                        <span>Youtube Music</span>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <hr>
+
+            <ul>
+
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-library"></span>
+                        <span>Biblioteca</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-history"></span>
+                        <span>Historial</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-square-triangle"></span>
+                        <span>Mis Videos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-clock"></span>
+                        <span>Ver más tarde</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-like"></span>
+                        <span>Videos que me gustan</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-down"></span>
+                        <span>Mostrar más</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr>
+            <!-- Area de suscriptores -->
+
+            <h4 class="nav-title">Sucripciones</h4>
+
+            <hr>
+
+            <ul>
+                <!-- Usuario normal -->
+                <li>
+                    <a class="link" href="#">
+
+                        <div class="user-avatar">
+                            <img class="user-img" src="https://scontent.fmyc2-1.fna.fbcdn.net/v/t1.6435-1/150939096_2839103333010279_6512607090534909507_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=cNTaEZQoj0kAX-C7JwX&_nc_ht=scontent.fmyc2-1.fna&oh=00_AT9G56gIXYUeK1pTCQGC9eKe__BmxLS7bRunDAhLk-wcGw&oe=62D09CFC" alt="foto-perfil">
+                        </div>
+                        <span>MAEB guanarito</span>
+
+                    </a>
+                </li>
+
+                <!-- Usuario que esta en vivo -->
+
+                <li>
+                    <a class="link is-in-live" href="#">
+
+                        <div class="user-avatar">
+                            <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLSIFmtdF4hYKawMj4e83bcr-UW70i9ci33uHIJJ=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                        </div>
+                        <span>MAEB Valencia</span>
+
+                    </a>
+                </li>
+
+
+                <!-- Usuario que subio video -->
+                <li>
+                    <a class="link is-new" href="#">
+                        <div class="user-avatar">
+                            <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLTO98hRSglMK0Ug3oPCZWDeu05RFjrmRfH1I4_dgg=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                        </div>
+                        <span>Daniela Sequera Peralta</span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <div class="user-avatar">
+                            <img class="user-img" src="https://yt3.ggpht.com/IwyRA05tmAiXDsv8KtFh3GYjkYTaTHAV-iaDDPDFrfal0qklJuaz4ULKE67n0ycgjgfLmfY1spE=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                        </div>
+                        <span>EDteam</span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <div class="user-avatar">
+                            <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLToU1sSfIWU5xGmwyGTWqP9iqY4MlgRolTMbTQeqg=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                        </div>
+                        <span>Platzi</span>
+
+                    </a>
+                </li>
+
+                <li class="main-nav__links">
+                    <a  class="link" href="#">
+                        <span class="icon icon-down"></span>
+                        <span>Mostrar 97 más</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Aqui finaliza los sucriptores -->
+
+            <!-- inicio de los demas items -->
+            <hr>
+
+            <h4 class="nav-title">Más de Youtube</h4>
+
+            <ul>
+
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-video"></span>
+                        <span>Peliculas</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-game"></span>
+                        <span>Videojuegos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-live"></span>
+                        <span>Directo</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-spotlight"></span>
+                        <span>Aprendizaje</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-trophy"></span>
+                        <span>Deportes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-config"></span>
+                        <span>Configuración</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-flag"></span>
+                        <span>Historial de denuncias</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-question"></span>
+                        <span>Ayuda</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="link" href="#">
+                        <span class="icon icon-message"></span>
+                        <span>Enviar sugerencias</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <hr>
+            <!-- zona del footer -->
+
+            <footer class="main-nav-footer">
+                <div class="container">
+                    <a class="link-footer" href="#">Información</a>
+
+                    <a class="link-footer" href="#">Prensa</a>
+
+                    <a class="link-footer" href="#">Derechos de autor</a>
+
+                    <a class="link-footer" href="#">Contactar</a>
+
+                    <a class="link-footer" href="#">Creadores</a>
+
+                    <a class="link-footer" href="#">Publicidad</a>
+
+                    <a class="link-footer" href="#">Desarrolladores</a>
+                </div>
+
+                <div class="container">
+                    <a class="link-footer" href="#">Términos</a>
+
+                    <a class="link-footer" href="#">Privacidad</a>
+
+                    <a class="link-footer" href="#">Política y seguridad</a>
+
+                    <a class="link-footer" href="#">Cómo funciona Youtube</a>
+
+                    <a class="link-footer" href="#">Probar funciones nuevas</a>
+
+                    </div>
+                    <p class="copyright">© 2022 Google LLC</p>
+            </footer>
+
+        </nav>
+    </div>
+
+    <main class="card-grid">
+
+
+        <!-- Video de MAEB valencia -->
+        <article class="card-video">
+            <a class="cover" href="maeb-valencia.html">
+                <img class="image" src="https://i.ytimg.com/vi/ga_jI2c_Ss4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSzopxRmjpqgK5InO9t-OviCONAA" alt="portada del video">
+                <time class="time">01:51</time>
+            </a>
+            <div class="container flex">
+                <div class="user-avatar">
+                    <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLSIFmtdF4hYKawMj4e83bcr-UW70i9ci33uHIJJ=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                </div>
+            </div>
+
+            <div class="content">
+                <h3 class="title">
+                    <a href="#">MAEB VALENCIA</a>
+                </h3>
+                <p>
+                    MAEB Valencia</p>
+                <p class="video-information">
+                    <span class="views">500.00 Visualizaciones</span>
+                    <span>Hace 1 año</span>
+                </p>
+            </div>
+            </article>
+
+
+            <!-- Video de Maeb Guanarito -->
+            <article class="card-video">
+                <a class="cover" href="maeb-guanarito.html">
+                    <img class="image" src="https://i.ibb.co/mST7rzH/logo-maeb-guanarito-comprimida.jpg" alt="portada del video">
+                    <time class="time">0.39</time>
+                </a>
+                <div class="container flex">
+                    <div class="user-avatar">
+                        <img class="user-img" src="https://scontent.fmyc2-1.fna.fbcdn.net/v/t1.6435-1/150939096_2839103333010279_6512607090534909507_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=cNTaEZQoj0kAX-C7JwX&_nc_ht=scontent.fmyc2-1.fna&oh=00_AT9G56gIXYUeK1pTCQGC9eKe__BmxLS7bRunDAhLk-wcGw&oe=62D09CFC" alt="foto-perfil">
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h3 class="title">
+                        <a href="maeb-guanarito.html">TE INVITAMOS A SER PARTE DE MAEB GUANARITO</a>
+                    </h3>
+                    <p>
+                        MAEB guanarito</p>
+                    <p class="video-information">
+                        <span class="views">900.00 Visualizaciones</span>
+                        <span>Hace 4 semanas</span>
+                    </p>
+                </div>
+                </article>
+
+                
+
+                 
+
+
+                <!-- Video de EDteam -->
+               <article class="card-video">
+                <a class="cover" href="#">
+                    <img class="image" src="https://i.ytimg.com/vi/8kpooi7o4xI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyFrjpdeGaBqOUWVcOT_XsvFvLuQ" alt="portada del video">
+                    <time class="time">01:10:06</time>
+                </a>
+                <div class="container flex">
+                    <div class="user-avatar">
+                        <img class="user-img" src="https://yt3.ggpht.com/IwyRA05tmAiXDsv8KtFh3GYjkYTaTHAV-iaDDPDFrfal0qklJuaz4ULKE67n0ycgjgfLmfY1spE=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h3 class="title">
+                        <a href="#">Curso: ¿Cómo ser desarrollador web en 2022</a>
+                    </h3>
+                    <p>
+                        EDteam</p>
+                    <p class="video-information">
+                        <span class="views">100.00 Visualizaciones</span>
+                        <span>Hace 1 semana</span>
+                    </p>
+                </div>
+                </article>
+
+
+                <!-- Video de Platzi -->
+               <article class="card-video">
+                <a class="cover" href="#">
+                    <img class="image" src="https://i.ytimg.com/vi/pnYxPfLUQEQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB6KkaKX8RUy2g1dbjwtRPHIJa5lg" alt="portada del video">
+                    <time class="time">31:54</time>
+                </a>
+                <div class="container flex">
+                    <div class="user-avatar">
+                        <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLToU1sSfIWU5xGmwyGTWqP9iqY4MlgRolTMbTQeqg=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h3 class="title">
+                        <a href="#">Desaprender para nunca parar de aprender | Freddy Vega</a>
+                    </h3>
+                    <p>
+                        Platzi</p>
+                    <p class="video-information">
+                        <span class="views">318.429 Visualizaciones</span>
+                        <span>Hace 3 semanas</span>
+                    </p>
+                </div>
+                </article>
+
+                <!-- Video de Platzi 2 -->
+               <article class="card-video">
+                <a class="cover" href="#">
+                    <img class="image" src="https://i.ytimg.com/vi/PWvC6uqNyNo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJHRL8GGiQ9X64HhlEhCN7lRNtmQ" alt="portada del video">
+                    <time class="time">15:02</time>
+                </a>
+                <div class="container flex">
+                    <div class="user-avatar">
+                        <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLToU1sSfIWU5xGmwyGTWqP9iqY4MlgRolTMbTQeqg=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <h3 class="title">
+                        <a href="#">3 TRUCOS para APRENDER (y entender) el INGLÉS nativo</a>
+                    </h3>
+                    <p>
+                        Platzi</p>
+                    <p class="video-information">
+                        <span class="views">29.997 Visualizaciones</span>
+                        <span>Hace 1 mes</span>
+                    </p>
+                </div>
+                </article>
+    </main>
+</body>
+</html>

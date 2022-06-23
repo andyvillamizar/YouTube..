@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAEB VALENCIA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="video-page scroll">
+    <header class="main-header">
+        <!-- area de la izquierda -->
+        <div class="start place-center">
+            <button class="action-button icon-menu"></button>
+            <a href="index.html">
+            <img class="logo" src="img/logo.svg" alt="Logo-youtube">
+            </a>
+        </div>
+        <!-- area del centro -->
+        <div class="middle place-center">
+            <form class="form-search place-center" action="#">
+                <input class="input" type="search" placeholder="Buscar">
+                <button data-tooltip="Buscar" class="submit icon-search"></button>
+            </form>
+            <button data-tooltip="Haz búsqueda por voz" class="action-button icon-microphone"></button>
+        </div>
+        <!-- area de la derecha -->
+        <div class="place-center buttons-container">
+            <button data-tooltip="Notificaciones" class="action-button icon-bell"></button>
+            <button data-tooltip="Aplicaciones de Youtube" class="action-button icon-grid"></button>
+            <button data-tooltip="Crear" class="action-button icon-camera"></button>
+
+            <div class="user">
+            <div class="user-avatar">
+                <img class="user-img" src="https://lh3.googleusercontent.com/ogw/ADea4I67gxOxyKluzfJ9TN1602l_T9MSBo1tL9ZguhcJWQ=s32-c-mo" alt="foto-perfil">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="video-page-grid">
+        <main class="video-column">
+        <section class="video-player">
+            <iframe
+                class="video" src="https://www.youtube.com/embed/ga_jI2c_Ss4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="title">MAEB VALENCIA</h1>
+                <div class="actions">
+                    <p class="video-information">
+                        <span class="views">500.00 Visualizaciones</span>
+                         <span class="views">24 sept 2018</span>
+                    </p>
+
+                    <div class="buttons-container">
+                        <div class="buttons-container likes">
+                    <button data-tooltip="Me gusta este video" class="action-button has-text">
+                        <span class="icon icon-like-video"></span>
+                        <span>8.000</span>
+                    </button>
+                </div>
+
+                <button data-tooltip="No me gusta este video" class="action-button has-text">
+                    <span class="icon icon-dislike-video"></span>
+                    <span>10</span>
+                </button>
+
+                <button data-tooltip="Compartir" class="action-button has-text">
+                    <span class="icon icon-share"></span>
+                    <span>Compartir</span>
+                </button>
+
+                <button data-tooltip="Guardar" class="action-button has-text">
+                    <span class="icon icon-add-list"></span>
+                    <span>Guardar</span>
+                </button>
+
+                <button  class="action-button has-text">
+                    <span class="icon icon-horizontal-dots"></span>
+                   
+                </button>
+
+                </div>
+
+                </div>
+
+                <hr class="border"/>
+        </section>
+
+
+        <section class="video-player-information flex">
+            <div class="user-avatar">
+                <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLSIFmtdF4hYKawMj4e83bcr-UW70i9ci33uHIJJ=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+            </div>
+
+            <div class="content">
+                <header class="header flex">
+                    <div>
+                        <a class="channel-name" data-tooltip="MAEB VALENCIA" href="#">MAEB VALENCIA</a>
+                        <p class="subs-count">900.00 Sucriptores</p>
+                    </div>
+                    <button class="button">Suscribirme</button>
+                </header>
+                <!-- descripcion del video -->
+                <p class="caption">
+                    
+                </p>
+                <button class="action-button has-text">
+                    <span>Mostrar más</span>
+                </button>
+            </div>
+            
+        </section>
+
+        <hr class="big">
+
+        <section class="comments-section">
+            <header class="comments-information buttons-container">
+
+                <p>
+                    150 Comentarios
+                </p>
+
+                <button class="action-button has-text">
+                    <span class="icon icon-filter"></span>
+                    <span>Ordenar por</span>
+                </button>
+
+            </header>
+
+            <div class="comment-form flex">
+                <div class="user-avatar">
+                    <img class="user-img" src="https://lh3.googleusercontent.com/ogw/ADea4I67gxOxyKluzfJ9TN1602l_T9MSBo1tL9ZguhcJWQ=s32-c-mo" alt="foto-perfil">
+                </div>
+
+                <div class="form">
+                    <div class="input" contenteditable></div>
+                    <div class="buttons-container">
+                        <button class="button link">
+                            Cancelar
+                        </button>
+
+                        <button class="button" disabled>
+                            Comentar
+                        </button>
+                    </div>
+            </div>
+
+            </div>
+
+           
+            <div class="comments-grid flex" id="comments-grid">
+
+                <!-- <article class="comment flex">
+                    <div class="user-avatar">
+                        <img class="user-img" src="https://yt3.ggpht.com/ytc/AKedOLTO98hRSglMK0Ug3oPCZWDeu05RFjrmRfH1I4_dgg=s88-c-k-c0x00ffffff-no-rj" alt="foto-perfil">
+                    </div>
+
+                    <div class="content">
+                        <header class="header">
+                            <a class="name" href="#"> <b> Andy Villamizar</b></a>
+                            <time class="time">hace una semana</time>
+                        </header>
+                        <p class="text">
+                            Comentarios aquis
+                            sadasdasdasdasdasd
+                            fgfgfgsfsdsfsgsgfd
+                        </p>
+
+                        <footer class="buttons-container">
+                            <button class="action-button has-text" data-tooltip="Me gusta">
+                                <span class="icon icon-like-video">
+                                </span>
+                                <span class="text">10</span>
+                            </button>
+
+                            <button class="action-button has-text" data-tooltip="No me gusta">
+                                <span class="icon icon-dislike-video"></span>
+                            </button>
+
+                            <button class="action-button has-text">
+                                <span class="text">Responder</span>
+                            </button>
+                        </footer>
+                    </div>
+                </article> -->
+
+                
+                
+            </div>
+
+            
+        </section>
+
+        </main>
+
+        <aside class="cards-sidebar" id="card-grid">
+            <!-- area de los videos recomendados  -->
+            <!-- <article class="card-video in-sidebar">
+                <a class="cover" href="#">
+                    <img class="image" src="" alt="Poster del video">
+                     <time class="time">5:50</time>
+                </a>
+
+                <div class="content">
+                    <h3 class="title">
+                        <a href="#">
+                            Este es el titulo del video
+                        </a>
+                    </h3>
+                    <a href="canal del usuario"></a>
+                    <p class="video-information">
+                        <span class="views">100.00 Visualizaciones</span>
+                        <span>Hace 2 semanas</span>
+                    </p>
+                </div>
+            </article> -->
+
+        </aside>
+    </div>
+    <script src="js/scripts/comment.js" type="module"></script>
+    <script src="js/scripts/cards.js" type="module"></script>
+</body>
+</html>
